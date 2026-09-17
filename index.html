@@ -1,1 +1,432 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BloomCart | Online Flower Shop</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🌸 BloomCart
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="custom.html">Custom Bouquet</a></li>
+                <li><a href="cart.html">Cart 🛒</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="welcome-text">
+                    Welcome to BloomCart
+                </p>
+
+                <h1>
+                    Flowers That Make
+                    <span>Every Moment Special</span>
+                </h1>
+
+                <p>
+                    Discover beautiful flowers, elegant bouquets,
+                    and thoughtful gifts for every occasion.
+                </p>
+
+                <a href="shop.html" class="btn">
+                    Shop Flowers
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CATEGORIES ================= -->
+
+        <section class="categories">
+
+            <div class="section-heading">
+                <p>Explore Our Collection</p>
+                <h2>Shop By Category</h2>
+            </div>
+
+            <div class="category-container">
+
+                <article class="category-card">
+
+                    <div class="category-icon">
+                        🌹
+                    </div>
+
+                    <h3>Roses</h3>
+
+                    <p>
+                        Classic roses for expressing love and care.
+                    </p>
+
+                    <a href="shop.html">
+                        Explore →
+                    </a>
+
+                </article>
+
+
+                <article class="category-card">
+
+                    <div class="category-icon">
+                        🌷
+                    </div>
+
+                    <h3>Tulips</h3>
+
+                    <p>
+                        Elegant tulips in beautiful colours.
+                    </p>
+
+                    <a href="shop.html">
+                        Explore →
+                    </a>
+
+                </article>
+
+
+                <article class="category-card">
+
+                    <div class="category-icon">
+                        🌻
+                    </div>
+
+                    <h3>Sunflowers</h3>
+
+                    <p>
+                        Bright sunflowers to spread happiness.
+                    </p>
+
+                    <a href="shop.html">
+                        Explore →
+                    </a>
+
+                </article>
+
+
+                <article class="category-card">
+
+                    <div class="category-icon">
+                        💐
+                    </div>
+
+                    <h3>Bouquets</h3>
+
+                    <p>
+                        Beautifully arranged bouquets for every occasion.
+                    </p>
+
+                    <a href="shop.html">
+                        Explore →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURED PRODUCTS ================= -->
+
+        <section class="featured">
+
+            <div class="section-heading">
+
+                <p>Our Best Sellers</p>
+
+                <h2>Featured Flowers</h2>
+
+            </div>
+
+
+            <div class="product-container">
+
+                <!-- Product 1 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        🌹
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Roses
+                        </p>
+
+                        <h3>
+                            Red Rose Bouquet
+                        </h3>
+
+                        <p class="price">
+                            ₹499
+                        </p>
+
+                        <button
+                            type="button"
+                            onclick="addToCart('Red Rose Bouquet', 499)">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 2 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        🌷
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Tulips
+                        </p>
+
+                        <h3>
+                            Pink Tulip Bouquet
+                        </h3>
+
+                        <p class="price">
+                            ₹599
+                        </p>
+
+                        <button
+                            type="button"
+                            onclick="addToCart('Pink Tulip Bouquet', 599)">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 3 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        🌻
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            Sunflowers
+                        </p>
+
+                        <h3>
+                            Sunflower Bouquet
+                        </h3>
+
+                        <p class="price">
+                            ₹449
+                        </p>
+
+                        <button
+                            type="button"
+                            onclick="addToCart('Sunflower Bouquet', 449)">
+                            Add to Cart
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CUSTOM BOUQUET ================= -->
+
+        <section class="custom-section">
+
+            <div class="custom-content">
+
+                <p>
+                    Make It Personal
+                </p>
+
+                <h2>
+                    Create Your Own Bouquet 💐
+                </h2>
+
+                <p>
+                    Choose your favourite flowers, colours,
+                    bouquet size and add a personal message.
+                </p>
+
+                <a href="custom.html" class="btn">
+                    Create Your Bouquet
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WHY BLOOMCART ================= -->
+
+        <section class="features">
+
+            <div class="section-heading">
+
+                <p>Why BloomCart?</p>
+
+                <h2>
+                    Make Every Gift Special
+                </h2>
+
+            </div>
+
+
+            <div class="feature-container">
+
+                <article class="feature-card">
+
+                    <div>
+                        🌸
+                    </div>
+
+                    <h3>
+                        Beautiful Flowers
+                    </h3>
+
+                    <p>
+                        Discover carefully selected flowers
+                        for every special moment.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div>
+                        🎁
+                    </div>
+
+                    <h3>
+                        Custom Gifts
+                    </h3>
+
+                    <p>
+                        Create personalised bouquets
+                        for your loved ones.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div>
+                        🚚
+                    </div>
+
+                    <h3>
+                        Easy Delivery
+                    </h3>
+
+                    <p>
+                        Enjoy a simple and convenient
+                        flower shopping experience.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h2>
+                🌸 BloomCart
+            </h2>
+
+            <p>
+                Making every moment bloom.
+            </p>
+
+            <div class="footer-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="shop.html">
+                    Shop
+                </a>
+
+                <a href="custom.html">
+                    Custom Bouquet
+                </a>
+
+                <a href="cart.html">
+                    Cart
+                </a>
+
+            </div>
+
+            <p class="copyright">
+                © 2026 BloomCart. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+
